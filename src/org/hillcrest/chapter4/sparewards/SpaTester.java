@@ -13,7 +13,7 @@ public class SpaTester {
         int numberOfManicures = in.nextInt();
         System.out.print("Enter number of referrals: ");
         int numberOfReferrals = in.nextInt();
-        System.out.printf("The discount is equal to: 76"+ reward.calculateDiscount(numberOfManicures,numberOfReferrals)+".00");
+        System.out.printf("The discount is equal to: "+ reward.calculateDiscount(numberOfManicures,numberOfReferrals)+".00");
 
 
     }
