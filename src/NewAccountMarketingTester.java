@@ -19,5 +19,11 @@ public class NewAccountMarketingTester {
                 NewAccountMarketing.getMonthTwoBalance(initBalance, interestRate));
         System.out.printf("Balance for the third month is %.2f" ,
                 NewAccountMarketing.getMonthThreeBalance(initBalance, interestRate));
+        System.out.println("The balance for the first month with an initial balance of 1200 and an interest " +
+                "rate of 7% would be roughly $1207.00");
+        System.out.println("The balance for the second month with an initial balance of 1200 and an interest " +
+                "rate of 7% would be roughly $1214.04");
+        System.out.println("The balance for the third month with an initial balance of 1200 and an interest " +
+                "rate of 7% would be roughly $1221.12");
     }
 }
