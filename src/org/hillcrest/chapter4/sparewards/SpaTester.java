@@ -15,5 +15,6 @@ public class SpaTester {
                 "unless it exceeds 75, in which case it will be 75.");
         System.out.println("For example, 58 manicures and 4 referrals would be a discount of 62, but " +
                 "70 manicures and 6 referrals would be a discount of 75");
+        System.out.println("Another example would be 20 manicures and 10 referrals, for a discount of 30.");
     }
 }
